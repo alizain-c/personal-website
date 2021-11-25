@@ -1,0 +1,100 @@
+h1 {
+  font-family: 'Lora', serif;
+  font-size: 80px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.par1 {
+  font-family: 'Slabo 27px', serif;
+  font-size: 30px;
+  text-align: center;
+  vertical-align: middle;
+  margin-bottom: 25px;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+p {
+  font-family: 'Slabo 27px', serif;
+  font-size: 20px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.par2Prop {
+  border: 2px solid #000000;
+  background-color: #F5F5F5;
+  width: 625px;
+  border: 5px solid black;
+  padding: 25px;
+  margin: auto;
+  border-right: 50%;
+  font-family: 'M PLUS 1 Code', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.blinking-cursor {
+  font-weight: 100;
+  font-size: 30px;
+  color: #2E3D48;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-ms-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-o-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
